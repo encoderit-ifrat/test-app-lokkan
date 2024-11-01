@@ -1,0 +1,3 @@
+export const STATE_REQUEST = "STATE_REQUEST";
+export const STATE_SUCCESS = "STATE_SUCCESS";
+export const STATE_FAILED = "STATE_FAILED";
