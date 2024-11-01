@@ -82,7 +82,7 @@ export default function NewVenture({ language }) {
     t["Address"],
     t["Features"],
     t["Photos and videos"],
-    t["Financial data"],
+    "Financial data",
   ];
   const [activeStep, setActiveStep] = useState(0);
   const [skipped, setSkipped] = useState(new Set());

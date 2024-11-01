@@ -324,7 +324,7 @@ function SeeProposalModal({
             fontWeight: "400",
           }}
         >
-          {t[proposalData?.payment_type]}
+          {proposalData?.payment_type}
         </Typography>
       </Grid>
       {proposalData?.vehicle && (

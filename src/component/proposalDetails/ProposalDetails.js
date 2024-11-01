@@ -281,7 +281,7 @@ function ProposalDetails({ language }) {
               <ListItem>
                 <ListItemText
                   primary={"Tipo de pagamento"}
-                  secondary={`${t[proposal?.payment_type]}`}
+                  secondary={`${proposal?.payment_type}`}
                   sx={{
                     "& .MuiListItemText-primary": {
                       color: "#6C7A84",
@@ -376,7 +376,7 @@ function ProposalDetails({ language }) {
                   ? formatBrazilianCurrency(
                       (+proposal?.vehicle?.price).toFixed(2)
                     )
-                  : t["pendant"]}
+                  : "pendant"}
               </Typography>
             </Box>
             <Grid container spacing={2}>

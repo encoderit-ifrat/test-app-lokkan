@@ -47,10 +47,8 @@ function KnowMoreContentBroker({
     //   imageSrc: clientsImage,
     // },
     {
-      // name: "Anúncios ilimitados",
-      // info: "Nos principais portais (OLX Imóveis, ZAP e Viva Real) para máxima visibilidade dos seus imóveis e mais clientes para você!",
-      name: "Marketing Digital Multicanal",
-      info: "Revolucione a forma como você se conecta com seus clientes. Envio de imóveis e mensagens no WhatsApp, e-mails personalizados e publicações nas redes sociais, tudo em um só lugar.",
+      name: "Anúncios ilimitados",
+      info: "Nos principais portais (OLX Imóveis, ZAP e Viva Real) para máxima visibilidade dos seus imóveis e mais clientes para você!",
       imageSrc: clientsImage,
       imageSrc: technologyImage,
     },

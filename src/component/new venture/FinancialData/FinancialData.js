@@ -342,7 +342,7 @@ function FinancialData({
                 lineHeight: "22px",
               }}
             >
-              {t["Purchase and sale contract"]}
+              Purchase and sale contract
             </Typography>
           </Box>
 

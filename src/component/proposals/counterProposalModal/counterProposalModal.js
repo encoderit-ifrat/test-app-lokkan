@@ -255,7 +255,7 @@ function CounterProposalModal({
               fontWeight: "400",
             }}
           >
-            {t[proposalData?.payment_type]}
+            {proposalData?.payment_type}
           </Typography>
         </Grid>
         {proposalData?.vehicle && (
@@ -292,7 +292,7 @@ function CounterProposalModal({
                   ? formatBrazilianCurrency(
                       (+proposalData?.vehicle?.price)?.toFixed(2)
                     )
-                  : t["pendant"]}
+                  : "pendant"}
               </Typography>
             </Grid>
           </Fragment>

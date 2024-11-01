@@ -392,7 +392,7 @@ function ProposalValueStep({
                   render={({ field }) => (
                     <BaseTextField
                       size={"large"}
-                      placeholder={t["Brand"]}
+                      placeholder={"Brand"}
                       variant={"outlined"}
                       name={"brand"}
                       value={field.value}
@@ -417,7 +417,7 @@ function ProposalValueStep({
                   render={({ field }) => (
                     <BaseTextField
                       size={"large"}
-                      placeholder={t["Model"]}
+                      placeholder={"Model"}
                       variant={"outlined"}
                       name={"model"}
                       value={field.value}
@@ -442,7 +442,7 @@ function ProposalValueStep({
                   render={({ field }) => (
                     <BaseTextField
                       size={"large"}
-                      placeholder={t["Year"]}
+                      placeholder={"Year"}
                       variant={"outlined"}
                       name={"year"}
                       value={field.value}
